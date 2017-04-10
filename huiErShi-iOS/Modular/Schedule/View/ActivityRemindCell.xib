@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="244" id="E4h-3X-Hhl" customClass="ActivityRemindCell">
+            <rect key="frame" x="0.0" y="0.0" width="450" height="244"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E4h-3X-Hhl" id="FiF-Vg-kSV">
+                <rect key="frame" x="0.0" y="0.0" width="450" height="243"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card3" translatesAutoresizingMaskIntoConstraints="NO" id="dPv-FI-gsH">
+                        <rect key="frame" x="10" y="10" width="430" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="140" id="MNE-8x-DNd"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="野外骑行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onu-rt-03w">
+                        <rect key="frame" x="10" y="160" width="68" height="24"/>
+                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="活动地点" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgT-eT-two">
+                        <rect key="frame" x="10" y="192" width="53.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已报名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iyb-kz-amQ">
+                        <rect key="frame" x="394" y="160" width="46" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.92549019610000005" green="0.2901960784" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="还有5天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8d-V2-Jo5">
+                        <rect key="frame" x="385" y="186" width="55" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.65098039220000004" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dPv-FI-gsH" firstAttribute="leading" secondItem="FiF-Vg-kSV" secondAttribute="leading" constant="10" id="E8F-1o-f1L"/>
+                    <constraint firstItem="onu-rt-03w" firstAttribute="top" secondItem="dPv-FI-gsH" secondAttribute="bottom" constant="10" id="GAn-Zj-a6p"/>
+                    <constraint firstItem="H8d-V2-Jo5" firstAttribute="top" secondItem="Iyb-kz-amQ" secondAttribute="bottom" constant="8" id="GtB-3u-rOs"/>
+                    <constraint firstItem="Iyb-kz-amQ" firstAttribute="top" secondItem="dPv-FI-gsH" secondAttribute="bottom" constant="10" id="JCY-ml-Opq"/>
+                    <constraint firstItem="bgT-eT-two" firstAttribute="top" secondItem="onu-rt-03w" secondAttribute="bottom" constant="8" id="R2e-3b-FU9"/>
+                    <constraint firstItem="bgT-eT-two" firstAttribute="leading" secondItem="FiF-Vg-kSV" secondAttribute="leading" constant="10" id="Rwg-Be-ISZ"/>
+                    <constraint firstAttribute="trailing" secondItem="Iyb-kz-amQ" secondAttribute="trailing" constant="10" id="VTc-x5-xz8"/>
+                    <constraint firstAttribute="trailing" secondItem="H8d-V2-Jo5" secondAttribute="trailing" constant="10" id="a39-rG-ORm"/>
+                    <constraint firstAttribute="trailing" secondItem="dPv-FI-gsH" secondAttribute="trailing" constant="10" id="cUR-dI-0BR"/>
+                    <constraint firstItem="onu-rt-03w" firstAttribute="leading" secondItem="FiF-Vg-kSV" secondAttribute="leading" constant="10" id="e6N-tC-hLy"/>
+                    <constraint firstItem="dPv-FI-gsH" firstAttribute="top" secondItem="FiF-Vg-kSV" secondAttribute="top" constant="10" id="puu-sv-huv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="activityAddress" destination="bgT-eT-two" id="jY1-JC-qHx"/>
+                <outlet property="activityName" destination="onu-rt-03w" id="BR2-8W-yv4"/>
+                <outlet property="activitytime" destination="H8d-V2-Jo5" id="zuj-Rl-Gsl"/>
+                <outlet property="applyState" destination="Iyb-kz-amQ" id="Nxp-va-afn"/>
+                <outlet property="icon" destination="dPv-FI-gsH" id="YBo-x7-YKg"/>
+            </connections>
+            <point key="canvasLocation" x="54" y="135"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="card3" width="355" height="199"/>
+    </resources>
+</document>

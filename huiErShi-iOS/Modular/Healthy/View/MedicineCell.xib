@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MedicineCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lT-aU-wnb">
+                        <rect key="frame" x="10" y="10" width="100" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="VIt-pQ-V9M"/>
+                            <constraint firstAttribute="height" constant="21" id="XBn-Nu-vUD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUk-el-ujc">
+                        <rect key="frame" x="10" y="37" width="100" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="bgT-1G-O8u"/>
+                            <constraint firstAttribute="width" constant="100" id="ncb-bD-laj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhM-Pn-gDf">
+                        <rect key="frame" x="265" y="37" width="100" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="QmL-cZ-1M7"/>
+                            <constraint firstAttribute="height" constant="21" id="Yh6-xu-iAl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="KhM-Pn-gDf" secondAttribute="trailing" constant="10" id="0Ag-9B-MJl"/>
+                    <constraint firstItem="8lT-aU-wnb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="5Yx-2a-brB"/>
+                    <constraint firstItem="8lT-aU-wnb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="B0A-qc-rRx"/>
+                    <constraint firstItem="KhM-Pn-gDf" firstAttribute="centerY" secondItem="RUk-el-ujc" secondAttribute="centerY" id="JoS-i7-nZN"/>
+                    <constraint firstItem="RUk-el-ujc" firstAttribute="top" secondItem="8lT-aU-wnb" secondAttribute="bottom" constant="6" id="dE7-dV-f7e"/>
+                    <constraint firstItem="RUk-el-ujc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="nly-wK-Hxz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="medicineDoseLabel" destination="RUk-el-ujc" id="KEd-Wc-0nf"/>
+                <outlet property="medicineNameLabel" destination="8lT-aU-wnb" id="Co4-2L-OHK"/>
+                <outlet property="medicneTimeLabel" destination="KhM-Pn-gDf" id="tWN-U3-6EZ"/>
+            </connections>
+            <point key="canvasLocation" x="-129" y="52"/>
+        </tableViewCell>
+    </objects>
+</document>

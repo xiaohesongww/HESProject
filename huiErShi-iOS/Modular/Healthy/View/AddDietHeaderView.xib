@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AddDietHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" placeholder="输入搜索项" translatesAutoresizingMaskIntoConstraints="NO" id="eKz-cx-1se">
+                    <rect key="frame" x="0.0" y="0.0" width="343" height="44"/>
+                    <color key="barTintColor" red="0.13725490196078433" green="0.10980392156862745" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4d0-eg-4Pg">
+                    <rect key="frame" x="343" y="12" width="20" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="7MR-Ro-lbz"/>
+                        <constraint firstAttribute="height" constant="20" id="kRk-oT-XgJ"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="搜索"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.13725490196078433" green="0.10980392156862745" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="eKz-cx-1se" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Yh-GY-jio"/>
+                <constraint firstAttribute="trailing" secondItem="4d0-eg-4Pg" secondAttribute="trailing" constant="12" id="GDm-Fo-7DQ"/>
+                <constraint firstItem="4d0-eg-4Pg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="OCa-3p-roF"/>
+                <constraint firstAttribute="bottom" secondItem="eKz-cx-1se" secondAttribute="bottom" id="PXs-2l-9Zw"/>
+                <constraint firstItem="4d0-eg-4Pg" firstAttribute="leading" secondItem="eKz-cx-1se" secondAttribute="trailing" id="Tgq-VD-n0s"/>
+                <constraint firstItem="eKz-cx-1se" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Uar-2e-70z"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dietSearchBar" destination="eKz-cx-1se" id="lrd-tA-X41"/>
+                <outlet property="searchButton" destination="4d0-eg-4Pg" id="PMs-KN-u1c"/>
+            </connections>
+            <point key="canvasLocation" x="68" y="66"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="搜索" width="20" height="20"/>
+    </resources>
+</document>

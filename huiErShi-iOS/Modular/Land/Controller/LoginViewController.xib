@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="LogoIcon" destination="g3L-ir-ZON" id="cjO-bV-vEp"/>
+                <outlet property="loginBtn" destination="vVY-4W-okr" id="sdY-jR-C5q"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Login_logo" translatesAutoresizingMaskIntoConstraints="NO" id="g3L-ir-ZON">
+                    <rect key="frame" x="112" y="100" width="150" height="150"/>
+                    <color key="backgroundColor" red="0.92549019610000005" green="0.2901960784" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="E4y-mT-WgG"/>
+                        <constraint firstAttribute="height" constant="150" id="f8n-63-oq0"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVY-4W-okr">
+                    <rect key="frame" x="112" y="440" width="150" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="kx8-Ic-7jW"/>
+                        <constraint firstAttribute="width" constant="150" id="nDA-l6-iss"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="微信"/>
+                    <connections>
+                        <action selector="weChatLogin:" destination="-1" eventType="touchUpInside" id="bNe-Wg-Egh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vVY-4W-okr" secondAttribute="bottom" constant="192.5" id="A3w-J5-O4g"/>
+                <constraint firstItem="g3L-ir-ZON" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="D8m-hF-GO1"/>
+                <constraint firstItem="g3L-ir-ZON" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="osn-Rd-G5W"/>
+                <constraint firstItem="vVY-4W-okr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="stx-Fr-Khl"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Login_logo" width="150" height="150"/>
+        <image name="微信" width="150" height="35"/>
+    </resources>
+</document>
