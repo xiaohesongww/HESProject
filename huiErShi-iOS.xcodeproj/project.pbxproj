@@ -13,6 +13,8 @@
 		034DD28C1E4BFB2700160A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034DD28A1E4BFB2700160A3B /* LaunchScreen.storyboard */; };
 		03C5765A1E4C7120000050B3 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C576591E4C7120000050B3 /* UIBarButtonItem+Extension.m */; };
 		0E127E0BFA5144EDC8904C1C /* libPods-huiErShi-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D3B81C4C348EB1524FFF17 /* libPods-huiErShi-iOS.a */; };
+		508A02311E9BA64A004F28EF /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 508A022C1E9BA64A004F28EF /* libWeChatSDK.a */; };
+		508A02321E9BA64A004F28EF /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 508A022D1E9BA64A004F28EF /* README.txt */; };
 		C809CD3B1E5AD8E000D35C68 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C809CD0C1E5AD8E000D35C68 /* DACircularProgressView.m */; };
 		C809CD3C1E5AD8E000D35C68 /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C809CD0E1E5AD8E000D35C68 /* DALabeledCircularProgressView.m */; };
 		C809CD3D1E5AD8E000D35C68 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = C809CD121E5AD8E000D35C68 /* Address.plist */; };
@@ -43,8 +45,6 @@
 		C83EB2A71E6665A000FF90ED /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83EB2A61E6665A000FF90ED /* CoreTelephony.framework */; };
 		C83EB2A91E6665AF00FF90ED /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C83EB2A81E6665AF00FF90ED /* libsqlite3.tbd */; };
 		C83EB2AD1E6665C300FF90ED /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C83EB2AC1E6665C300FF90ED /* libz.tbd */; };
-		C83EB2E21E66934700FF90ED /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C83EB2DD1E66934700FF90ED /* libWeChatSDK.a */; };
-		C83EB2E31E66934700FF90ED /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C83EB2DE1E66934700FF90ED /* README.txt */; };
 		C83EB2E51E66938000FF90ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83EB2E41E66938000FF90ED /* CFNetwork.framework */; };
 		C8AB615C1E767FCE00068F01 /* RZPopupMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AB61591E767FCE00068F01 /* RZPopupMenuItem.m */; };
 		C8AB615D1E767FCE00068F01 /* RZPopupMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AB615B1E767FCE00068F01 /* RZPopupMenuView.m */; };
@@ -237,6 +237,11 @@
 		03C576581E4C7120000050B3 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		03C576591E4C7120000050B3 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		049256677C7B55A97E8A975F /* Pods-huiErShi-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huiErShi-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-huiErShi-iOS/Pods-huiErShi-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		508A022C1E9BA64A004F28EF /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		508A022D1E9BA64A004F28EF /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		508A022E1E9BA64A004F28EF /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		508A022F1E9BA64A004F28EF /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		508A02301E9BA64A004F28EF /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		C809CD0B1E5AD8E000D35C68 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
 		C809CD0C1E5AD8E000D35C68 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
 		C809CD0D1E5AD8E000D35C68 /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
@@ -291,11 +296,6 @@
 		C83EB2A81E6665AF00FF90ED /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		C83EB2AA1E6665BB00FF90ED /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		C83EB2AC1E6665C300FF90ED /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		C83EB2DD1E66934700FF90ED /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		C83EB2DE1E66934700FF90ED /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		C83EB2DF1E66934700FF90ED /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		C83EB2E01E66934700FF90ED /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		C83EB2E11E66934700FF90ED /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		C83EB2E41E66938000FF90ED /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		C8AB61581E767FCE00068F01 /* RZPopupMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPopupMenuItem.h; sourceTree = "<group>"; };
 		C8AB61591E767FCE00068F01 /* RZPopupMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPopupMenuItem.m; sourceTree = "<group>"; };
@@ -615,12 +615,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508A02311E9BA64A004F28EF /* libWeChatSDK.a in Frameworks */,
 				C8AB62101E7A311B00068F01 /* libstdc++.tbd in Frameworks */,
 				C8AB620E1E7A30D900068F01 /* libstdc++.6.0.9.tbd in Frameworks */,
 				C83EB2A91E6665AF00FF90ED /* libsqlite3.tbd in Frameworks */,
 				C83EB2E51E66938000FF90ED /* CFNetwork.framework in Frameworks */,
 				D9F6D19D1E84C0AD00B74228 /* ImSDK.framework in Frameworks */,
-				C83EB2E21E66934700FF90ED /* libWeChatSDK.a in Frameworks */,
 				C83EB2AD1E6665C300FF90ED /* libz.tbd in Frameworks */,
 				D9F6D19E1E84C0AD00B74228 /* IMSDKBugly.framework in Frameworks */,
 				C83EB2A71E6665A000FF90ED /* CoreTelephony.framework in Frameworks */,
@@ -710,6 +710,18 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		508A022B1E9BA64A004F28EF /* OpenSDK1.7.6 */ = {
+			isa = PBXGroup;
+			children = (
+				508A022C1E9BA64A004F28EF /* libWeChatSDK.a */,
+				508A022D1E9BA64A004F28EF /* README.txt */,
+				508A022E1E9BA64A004F28EF /* WechatAuthSDK.h */,
+				508A022F1E9BA64A004F28EF /* WXApi.h */,
+				508A02301E9BA64A004F28EF /* WXApiObject.h */,
+			);
+			path = OpenSDK1.7.6;
+			sourceTree = "<group>";
+		};
 		6E60A29FDD437989CC9339AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -738,12 +750,12 @@
 		C809CCC41E5AD83700D35C68 /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				508A022B1E9BA64A004F28EF /* OpenSDK1.7.6 */,
 				C8AB61FD1E7A2F0C00068F01 /* TX_IMSDK */,
 				C8AB61DB1E792F6200068F01 /* XHDatePicker */,
 				C8AB61B51E7918C400068F01 /* Masonry */,
 				C8AB61571E767FCE00068F01 /* RZPopupMenu */,
 				C8FF50AA1E6C03610081B783 /* JSONModel */,
-				C83EB2DC1E66934700FF90ED /* OpenSDK1.7.6 */,
 				C8B62ECC1E61381000534D97 /* JHCustomMenu */,
 				C809CD091E5AD8E000D35C68 /* Dependency */,
 				C809CD111E5AD8E000D35C68 /* LZCityPickerClass */,
@@ -889,18 +901,6 @@
 				C8233A321E6A6FAB003BF8FE /* UIColor+ZXLazy.m */,
 			);
 			path = Canlendar;
-			sourceTree = "<group>";
-		};
-		C83EB2DC1E66934700FF90ED /* OpenSDK1.7.6 */ = {
-			isa = PBXGroup;
-			children = (
-				C83EB2DD1E66934700FF90ED /* libWeChatSDK.a */,
-				C83EB2DE1E66934700FF90ED /* README.txt */,
-				C83EB2DF1E66934700FF90ED /* WechatAuthSDK.h */,
-				C83EB2E01E66934700FF90ED /* WXApi.h */,
-				C83EB2E11E66934700FF90ED /* WXApiObject.h */,
-			);
-			path = OpenSDK1.7.6;
 			sourceTree = "<group>";
 		};
 		C8AB61571E767FCE00068F01 /* RZPopupMenu */ = {
@@ -1613,6 +1613,7 @@
 				D91950831E84B81200554CBF /* SloganSettingViewController.xib in Resources */,
 				D919501D1E84B81200554CBF /* DetailDescription.xib in Resources */,
 				D9F6D19B1E84C0AD00B74228 /* descript.txt in Resources */,
+				508A02321E9BA64A004F28EF /* README.txt in Resources */,
 				D919508D1E84B81200554CBF /* ActivityMembersCell.xib in Resources */,
 				D91950211E84B81200554CBF /* FooterView.xib in Resources */,
 				D919508B1E84B81200554CBF /* ActivityDetailCell.xib in Resources */,
@@ -1622,7 +1623,6 @@
 				D91950951E84B81200554CBF /* MemberCell.xib in Resources */,
 				034DD28C1E4BFB2700160A3B /* LaunchScreen.storyboard in Resources */,
 				C8FF50D21E6C0EBC0081B783 /* me_bg.png in Resources */,
-				C83EB2E31E66934700FF90ED /* README.txt in Resources */,
 				D91950511E84B81200554CBF /* MedicineCell.xib in Resources */,
 				D919507A1E84B81200554CBF /* ProjectCell.xib in Resources */,
 				D919503E1E84B81200554CBF /* AddFoodFootView.xib in Resources */,
