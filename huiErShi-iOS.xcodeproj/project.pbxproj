@@ -15,6 +15,7 @@
 		0E127E0BFA5144EDC8904C1C /* libPods-huiErShi-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D3B81C4C348EB1524FFF17 /* libPods-huiErShi-iOS.a */; };
 		508A02311E9BA64A004F28EF /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 508A022C1E9BA64A004F28EF /* libWeChatSDK.a */; };
 		508A02321E9BA64A004F28EF /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 508A022D1E9BA64A004F28EF /* README.txt */; };
+		508A023E1E9BBE3E004F28EF /* IMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508A023D1E9BBE3E004F28EF /* IMCore.framework */; };
 		C809CD3B1E5AD8E000D35C68 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C809CD0C1E5AD8E000D35C68 /* DACircularProgressView.m */; };
 		C809CD3C1E5AD8E000D35C68 /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C809CD0E1E5AD8E000D35C68 /* DALabeledCircularProgressView.m */; };
 		C809CD3D1E5AD8E000D35C68 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = C809CD121E5AD8E000D35C68 /* Address.plist */; };
@@ -242,6 +243,7 @@
 		508A022E1E9BA64A004F28EF /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		508A022F1E9BA64A004F28EF /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		508A02301E9BA64A004F28EF /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		508A023D1E9BBE3E004F28EF /* IMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IMCore.framework; sourceTree = "<group>"; };
 		C809CD0B1E5AD8E000D35C68 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
 		C809CD0C1E5AD8E000D35C68 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
 		C809CD0D1E5AD8E000D35C68 /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
@@ -622,6 +624,7 @@
 				C83EB2E51E66938000FF90ED /* CFNetwork.framework in Frameworks */,
 				D9F6D19D1E84C0AD00B74228 /* ImSDK.framework in Frameworks */,
 				C83EB2AD1E6665C300FF90ED /* libz.tbd in Frameworks */,
+				508A023E1E9BBE3E004F28EF /* IMCore.framework in Frameworks */,
 				D9F6D19E1E84C0AD00B74228 /* IMSDKBugly.framework in Frameworks */,
 				C83EB2A71E6665A000FF90ED /* CoreTelephony.framework in Frameworks */,
 				D9F6D19C1E84C0AD00B74228 /* IMCore.framework in Frameworks */,
@@ -1487,6 +1490,7 @@
 		D9F6D1941E84C0AD00B74228 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				508A023D1E9BBE3E004F28EF /* IMCore.framework */,
 				D9F6D1951E84C0AD00B74228 /* descript.txt */,
 				D9F6D1961E84C0AD00B74228 /* IMCore.framework */,
 				D9F6D1971E84C0AD00B74228 /* ImSDK.framework */,
